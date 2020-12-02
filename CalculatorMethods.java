@@ -18,15 +18,15 @@ public class CalculatorMethods {
         number1 = keyboard.nextInt();
 
         if (answer.equals("M")||answer.equals("m")) {
-          System.out.println("Your answer is!...... " + Multiplcation(number, number1));  
+          System.out.println("Your answer is!...... " + Multiplcation(number, number1) + " \n Maydm Rocks!");  
         } else if (answer.equals("D")||answer.equals("d")) {
-            System.out.println("Your answer is!...... " + Division(number, number1));
+            System.out.println("Your answer is!...... " + Division(number, number1) + " \n Maydm Rocks!");
         }else if (answer.equals("S")||answer.equals("s")) {
-            System.out.println("Your answer is!...... " + Subtract(number, number1));
+            System.out.println("Your answer is!...... " + Subtract(number, number1) + " \n Maydm Rocks!");
         }else if (answer.equals("A")||answer.equals("a")) {
-            System.out.println("Your answer is!...... " + Add(number, number1));
+            System.out.println("Your answer is!...... " + Add(number, number1) + " \n Maydm Rocks!");
         }else if (answer.equals("R")||answer.equals("r")) {
-            System.out.println("Your remainder is!......" + Remainder(number, number1));
+            System.out.println("Your remainder is!......" + Remainder(number, number1) +  "\n Maydm Rocks1");
         }
 
     }
